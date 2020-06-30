@@ -1,231 +1,349 @@
 <!DOCTYPE html>
-<html>
-    <head>
-      <title>Colin Brine's Portfolio</title>
-      <meta name="viewport" content="width=device-width, initial-scale=1">
+<html class="no-js" lang="en">
 
-      <link href="assets/styles/main.css" rel="stylesheet">
-      <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-      <script src="assets/scripts/index.js" type="text/javascript" charset="utf-8" defer></script>
-      <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<meta http-equiv="x-ua-compatible" content="ie=edge">
-<!-- Font Awesome -->
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
-<!-- Bootstrap core CSS -->
-<link href="css/bootstrap.min.css" rel="stylesheet">
-<!-- Material Design Bootstrap -->
-<link href="css/mdb.min.css" rel="stylesheet">
-<!-- Your custom styles (optional) -->
-<link href="css/style.min.css" rel="stylesheet">
-<style type="text/css">
-  html,
-  body,
-  header,
-  .view {
-    height: 100%;
-  }
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Colin Brine's Portfolio</title>
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+	<link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
+    <link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
+</head>
 
-  @media (max-width: 559px) {
-
-    html,
-    body,
-    header,
-    .view {
-      height: 1000px;
-    }
-  }
-
-  @media (min-width: 560px) and (max-width: 740px) {
-
-    html,
-    body,
-    header,
-    .view {
-      height: 700px;
-    }
-  }
-
-  @media (min-width: 800px) and (max-width: 850px) {
-
-    html,
-    body,
-    header,
-    .view {
-      height: 600px;
-    }
-  }
-
-  @media (min-width: 800px) and (max-width: 850px) {
-    .navbar:not(.top-nav-collapse) {
-      background: #1C2331 !important;
-    }
-  }
-
-</style>
-    </head>
-    <body>
-
-  <!-- Navbar -->
-  <nav class="navbar fixed-top navbar-expand-lg navbar-dark scrolling-navbar">
-    <div class="container">
-
-      <!-- Brand -->
-      <a class="navbar-brand animated wobble" href="#" target="_blank">
-        <strong>Colin Brine's Portfolio</strong>
-      </a>
-
-      <!-- Collapse -->
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-
-      <!-- Links -->
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-
-        <!-- Left -->
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item active" >
-            <a class="nav-link" href="#">Home
-              <span class="sr-only">(current)</span>
-            </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#" target="_blank">About Me</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#" target="_blank">Projects</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#" target="_blank">More!</a>
-          </li>
+<body>
+    <div id="mobile-menu-open" class="shadow-large">
+        <i class="fa fa-bars" aria-hidden="true"></i>
+    </div>
+    <!-- End #mobile-menu-toggle -->
+    <header>
+        <div id="mobile-menu-close">
+            <span>Close</span> <i class="fa fa-times" aria-hidden="true"></i>
+        </div>
+        <ul id="menu" class="shadow">
+            <li>
+                <a href="#about">About</a>
+            </li>
+            <li>
+                <a href="#skills">Technical Toolset</a>
+            </li>
+            <li>
+                <a href="#projects">Projects</a>
+            </li>
+            <li>
+                <a href="#experience">Experience</a>
+            </li>
+            <li>
+                <a href="#education">Education</a>
+            </li>
+            <li>
+                <a href="#contact">Contact</a>
+            </li>
         </ul>
+    </header>
+    <!-- End header -->
 
-        <!-- Right -->
-        <ul class="navbar-nav nav-flex-icons">
-          <li class="nav-item">
-            <a href="https://www.facebook.com/brinec" class="nav-link" target="_blank">
-              <i class="fab fa-facebook-f"></i>
-            </a>
-          </li>
-          <li class="nav-item">
-            <a href="https://github.com/brinecr" class="nav-link" target="_blank">
-              <i class="fab fa-github mr-3"></i>
-            </a>
-          </li>
+    <div id="lead">
+        <div id="lead-content">
+            <h1>Colin R. Brine</h1>
+            <h2>Software Engineer</h2>
+            <a src="images/Colin_Brine_Resume.pdf" class="btn-rounded-white">Download Resume</a>
+        </div>
+        <!-- End #lead-content -->
+
+        <div id="lead-overlay"></div>
+
+        <div id="lead-down">
+            <span>
+                <i class="fa fa-chevron-down" aria-hidden="true"></i>
+            </span>
+        </div>
+        <!-- End #lead-down -->
+    </div>
+    <!-- End #lead -->
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h2 class="heading">About Me</h2>
+                </div>
+                <div class="col-md-8">
+                    <p>
+                        I am a new and enthusiastic software engineer with a history in the IT and technical support fields. Having worked in a myriad of positions as the pivot between engineers and customers it has helped me build a holistic perspective on project-based environments. I love to learn and challenge myself.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End #about -->
+    <div id="skills">
+        <h2 class="heading">Technical Toolset</h2>
+        <ul>
+            <li>Linux (Ubuntu)</li>
+            <li>Mac</li>
+            <li>Windows</li>
+            <li>Javascript</li>
+            <li>Python</li>
+            <li>MongoDB</li>
+            <li>Django</li>
+            <li>PostgreSQL</li>
+            <li>Node.js</li>
+            <li>Express</li>
+            <li>React</li>
+            <li>Bootstrap</li>
+            <li>HTML</li>
+            <li>CSS/SASS</li>
+            <li>Markup</li>
+            <li>jQuery</li>
+            <li>Wireframes</li>
+            <li>User Stories</li>
+            <li>AJAX</li>
+            <li>Axios</li>
+            <li>bcrypt</li>
+            <li>Cors</li>
+            <li>Socket.io</li>
+            <li>Agile</li>
+            <li>Scrum</li>
+            <li>Troubleshooting</li>
+            <li>Team Management</li>
+            <li>Problem Solving</li>
         </ul>
-
-      </div>
-
     </div>
-  </nav>
-  <!-- Navbar -->
+    <!-- End #skills -->
 
-  <!-- Full Page Intro -->
-  <div class="view">
+    <div id="projects" class="background-alt">
+        <h2 class="heading">Projects</h2>
+        <div class="container">
+            <div class="row">
 
-    <video class="video-intro" poster="https://mdbootstrap.com/img/Photos/Others/background.jpg" playsinline autoplay
-      muted loop>
-      <source src="https://mdbootstrap.com/img/video/Lines-min.mp4" type="video/mp4">
-    </video>
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <img src="images/charactercreationtool.png" alt="Character Creation Tool Screenshot" height="300" width="300" />
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3>Character Creation Tool SPA + API </h3>
+                        <p>
+                            Solo full-stack application project highlighting a React/Javascript front-end with a custom build Django/Python back-end. This allows you to log in, create a character, view all of your characters and edit their health attributes. Serving as a foundation for a future monster battling platform.
+                        </p>
+                        <a href="https://brinecr.github.io/Character-Creation-Tool-Client/#/">View Deployed Client</a>
+                        <br>
+                        <a href="https://github.com/brinecr/Character-Creation-Tool-Client">View Client GitHub Page</a>
+                        <br>
+                        <a href="https://github.com/brinecr/Character-Creation-Tool-API">View API GitHub Page</a>
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+                <!-- End .project -->
 
-    <!-- Mask & flexbox options-->
-    <div class="mask rgba-black-light d-flex justify-content-center align-items-center">
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <img src="images/projectstardust.png" alt="Project Stardust Screenshot" height="300" width="300" />
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3>Project Stardust Chat SPA + API</h3>
+                        <p>
+                            Group full-stack application project highlighting a React/Javascript front-end w/ Express/Javascript API back-end w/ sockets.io and pair programming. This includes an auth section, chat section, and updatable user profile.
+                        </p>
+                        <a href="https://ga-the-empire.github.io/project-stardust-client/#/">View Deployed Client</a>
+                        <br>
+                        <a href="https://github.com/GA-The-Empire/project-stardust-client">View Client GitHub Page</a>
+                        <br>
+                        <a href="https://github.com/GA-The-Empire/project-stardust-api">View API GitHub Page</a>
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+                <!-- End .project -->
 
-      <!-- Content -->
-      <div class="text-center white-text mx-5 wow fadeIn">
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <img src="images/petsharingapplication.png" alt="Pet Sharing Application Screenshot" height="300" width="300" />
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3>Pet Sharing SPA +API</h3>
+                        <p>
+                            Solo full-stack application project w/ Javascript, Handlebars, jQuery, HTML/SASS front-end and Express API back-end. This has an auth section, then you can add and share your pets. You could also see all pets but only edit your own. It was my first project doing both the front and back end programming.
+                        </p>
+                        <a href="https://brinecr.github.io/pet-client/">View Deployed Client</a>
+                        <br>
+                        <a href="https://github.com/brinecr/pet-client">View Client GitHub Page</a>
+                        <br>
+                        <a href="https://github.com/brinecr/pet-api">View API GitHub Page</a>
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+                <!-- End .project -->
 
-        <h1 class="display-4 mb-4">
-          <strong>Coming Soon!</strong>
-        </h1>
-
-        <!-- Time Counter -->
-        <p id="time-counter" class="border border-light my-4"></p>
-
-
-        <h4 class="mb-4">
-          <strong>I am working hard to finish the development of this site! </strong>
-        </h4>
-
-      </div>
-      <!-- Content -->
-
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <img src="images/tictactoegame.png" alt="Tic Tac Toe Game Screenshot" height="300" width="300"/>
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3>Tic-Tac-Toe SPA</h3>
+                        <p>
+                            Solo front-end project creating a game board and logic, creating a SPA, and integrating with an existing API. This was my first project utilizing Javascript, HTML, jQuery, SASS.
+                        </p>
+                        <a href="https://brinecr.github.io/tic-tac-toe-client/">View Deployed Client</a>
+                        <br>
+                        <a href="https://github.com/brinecr/tic-tac-toe-client">View Client GitHub Page</a>
+                        <br>
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+                <!-- End .project -->
+            </div>
+        </div>
     </div>
-    <!-- Mask & flexbox options-->
+    <!-- End #projects -->
 
-  </div>
-  <!-- Full Page Intro -->
+    <div id="experience" class="background-alt">
+        <h2 class="heading">Experience</h2>
+        <div id="experience-timeline">
+            <div data-date="April 2020 - June 2020">
+                <h3>Software Engineering Immersive Fellow</h3>
+                <h4>General Assembly</h4>
+                <p>
+                  400+ hours of coursework; individual and team based.
+                  Four full-stack projects with current technologies in software development as outlined above.
+                </p>
+                <ul>
+                    <li><p><strong>Character Creation Tool SPA + API</strong> - Solo full-stack application project highlighting a React/Javascript front-end with a custom build Django/Python back-end. This allows you to log in, create a character, view all of your characters and edit their health attributes. Serving as a foundation for a future monster battling platform.</p></li>
+                    <li><p><strong>Project Stardust Chat SPA + API</strong> - Group full-stack application project highlighting a React/Javascript front-end w/ Express/Javascript API back-end w/ sockets.io and pair programming. This includes an auth section, chat section, and updatable user profile.</p></li>
+                    <li><p><strong>Pet Sharing SPA +API</strong> - Solo full-stack application project w/ Javascript, Handlebars, jQuery, HTML/SASS front-end and Express API back-end. This has an auth section, then you can add and share your pets. You could also see all pets but only edit your own. It was my first project doing both the front and back end programming.</p></li>
+                    <li><p><strong>Tic-Tac-Toe SPA</strong> - Solo front-end project creating a game board and logic, creating a SPA, and integrating with an existing API. This was my first project utilizing Javascript, HTML, jQuery, SASS.
+</p></li>
+                </ul>
+            </div>
 
-  <!--Footer-->
-  <footer class="page-footer text-center font-small wow fadeIn">
+            <div data-date="October 2012 - March 2020">
+                <h3>IT, Technical, Product and Desktop Support</h3>
+                <br>
+                <p><strong>Desktop Support Specialist Lead (temp)</strong> - Optos via The Davis Companies - Marlborough, MA</p>
+                <p><strong>Support Engineer Level 1</strong> - Vision Government Solutions - Hudson, MA</p>
+                <p><strong>Business Services Support Professional</strong> - Comcast Business - Hudson, NH</p>
+                <p><strong>AR Retention Specialist (temp)</strong> - Tyco SimplexGrinnell - Westminster, MA</p>
+                <p><strong>Customer Service Representative</strong> Destination Weddings Travel Group - Wayland, MA</p>
+                <p><strong>Product and Technical Support Specialist II</strong> - Bose Corp. - Westborough, MA</p>
+                <p><strong>Product and Technical Support Specialist (temp)</strong> - Bose Corp. via Randstad - Westborough, MA</p>
+                <p>
+                <ul>
+                    <li><p>The ability to translate technical information to a non-technical audience.</p></li>
+                    <li><p>Ability to prioritize daily responsibilities and demonstrate good time management.</p></li>
+                    <li><p>Recognizes and diffuses difficult customer situations utilizing all resources, interpersonal and negotiating skills to come to resolution.</p></li>
+                    <li><p>Provides prompt resolution to customers via telephone, e-mail or chat to assist with customer inquiries and issues.</p></li>
+                </ul>
+              </p>
+            </div>
 
-    <!-- Social icons -->
-    <div class="pb-4">
-      <br>
-      <a href="https://www.facebook.com/brinec" target="_blank">
-        <i class="fab fa-facebook-f mr-3"></i>
-      </a>
-      <a href="https://github.com/brinecr" target="_blank">
-        <i class="fab fa-github mr-3"></i>
-      </a>
+            <div data-date="August 2007 - October 2012">
+                <h3>Early Work Experience</h3>
+                <p><strong>Commissary Representative</strong> - Keefe Commissary Network - Statewide in MA</p>
+                <p><strong>Armed Service Technician/Driver</strong> - Loomis - Boylston, MA</p>
+                <ul>
+                    <li><p>Maintains accountability of high value information and product in secure environments.</p></li>
+                    <li><p>Works remotely without direct supervision.</p></li>
+                </ul>
+            </div>
+
+            <div data-date="August 2007 - October 2012">
+                <h3>Other Experience</h3>
+                <p><strong>Co-Founder/Event Organizer</strong> - 4orce Productions - Music/Rental/Event Company - MA, NH</p>
+                <ul>
+                    <li><p>Organizing events on a consistent basis in New England.</p></li>
+                    <li><p>Coordinating promotion, DJs, sound and equipment rentals.</p></li>
+                    <li><p>Handles Twitter, Facebook, and social media presence.</p></li>
+                </ul>
+            </div>
+        </div>
     </div>
-    <!-- Social icons -->
+    <!-- End #experience -->
 
-  </footer>
-  <!--/.Footer-->
+    <div id="education">
+        <h2 class="heading">Education & Awards</h2>
+        <div class="education-block">
+            <h3>Middlesex Community College</h3>
+            <h4>Associate Degree in Criminal Justice</h4>
+            <ul>
+                <li>
+                    Finished school part-time while working full-time.
+                </li>
+            </ul>
+        </div>
+        <!-- End .education-block -->
 
-  <!-- SCRIPTS -->
-  <!-- JQuery -->
-  <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
-  <!-- Bootstrap tooltips -->
-  <script type="text/javascript" src="js/popper.min.js"></script>
-  <!-- Bootstrap core JavaScript -->
-  <script type="text/javascript" src="js/bootstrap.min.js"></script>
-  <!-- MDB core JavaScript -->
-  <script type="text/javascript" src="js/mdb.min.js"></script>
-  <!-- Initializations -->
-  <script type="text/javascript">
-    // Animations initialization
-    new WOW().init();
+        <div class="education-block">
+            <h3>Norwich University</h3>
+            <h4>Took coursework in Computer Security and Information Assurance</h4>
+            <ul>
+                <li>
+                    Participated in the Corps of Cadets
+                </li>
+            </ul>
+        </div>
+        <!-- End .education-block -->
 
-  </script>
+        <div class="education-block">
+            <h3>Eagle Scout</h3>
+            <h4>Senior Patrol Leader and Venture Crew Chief</h4>
+        </div>
+        <!-- End .education-block -->
+    </div>
+    <!-- End #education -->
 
-  <!-- Time Counter -->
-  <script type="text/javascript">
-    // Set the date we're counting down to
-    var countDownDate = new Date();
-    countDownDate.setDate(29);
+    <div id="contact">
+        <h2>Get in Touch</h2>
+        <div id="contact-form">
+            <form method="POST" action="https://formspree.io/brinec@gmail.com">
+                <input type="hidden" name="_subject" value="Contact request from personal website" />
+                <input type="email" name="_replyto" placeholder="Your email" required>
+                <textarea name="message" placeholder="Your message" required></textarea>
+                <button type="submit">Send</button>
+            </form>
+        </div>
+        <!-- End #contact-form -->
+    </div>
+    <!-- End #contact -->
 
-    // Update the count down every 1 second
-    var x = setInterval(function () {
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-5 copyright">
+                    <p>
+                        Copyright &copy; 2020 COLIN R. BRINE
+                    </p>
+                </div>
+                <div class="col-sm-2 top">
+                    <span id="to-top">
+                        <i class="fa fa-chevron-up" aria-hidden="true"></i>
+                    </span>
+                </div>
+                <div class="col-sm-5 social">
+                    <ul>
+                        <li>
+                            <a href="https://github.com/brinecr" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://www.linkedin.com/in/brinec/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://www.facebook.com/brinec" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- End footer -->
 
-      // Get todays date and time
-      var now = new Date().getTime();
-
-      // Find the distance between now an the count down date
-      var distance = countDownDate - now;
-
-      // Time calculations for days, hours, minutes and seconds
-      var days = Math.floor(distance / (1000 * 60 * 60 * 24));
-      var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-      var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-      var seconds = Math.floor((distance % (1000 * 60)) / 1000);
-
-      // Display the result in the element with id="demo"
-      document.getElementById("time-counter").innerHTML = days + "d " + hours + "h " +
-        minutes + "m " + seconds + "s ";
-
-      // If the count down is finished, write some text
-      if (distance < 0) {
-        clearInterval(x);
-        document.getElementById("time-counter").innerHTML = "EXPIRED";
-      }
-    }, 1000);
-
-  </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/scripts.min.js"></script>
 </body>
 
-</html>
-    </body>
 </html>

@@ -1,37 +1,14 @@
+# What is this?
+
+This is Colin R. Brine's portfolio.
+
 ## About Me
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+I am a new and enthusiastic software engineer with a history in the IT and technical support fields. Having worked in a myriad of positions as the pivot between engineers and customers it has helped me build a holistic perspective on project-based environments. I love to learn and challenge myself.
 
-## Skills
+## Technical Toolset
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Linux (Ubuntu), Mac, Windows, Javascript, Python, MongoDB, Django, PostgreSQL, Node.js, Express, React, Bootstrap, HTML, CSS/SASS, Markup, jQuery, Wireframes, User Stories, AJAX, Axios, bcrypt, Cors, Socket.io, Agile, Scrum, Troubleshooting, Team Management, Problem Solving
 
-## Contact Info
-
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
-## Resume
-
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
-## Project Showcase
-
-### Project 4
-
-Info
-
-### Project 3
-
-Info
-
-### Project 2
-
-Info
-
-### Project 1
-
-Info
-
-## Personal Hobbies
-
-Sleeping
+## Projects
+Please see actual live portfolio link to view updated project information!
