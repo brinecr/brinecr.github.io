@@ -1,360 +1,91 @@
 <!DOCTYPE html>
 <html class="no-js" lang="en">
-
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Colin R. Brine's Portfolio</title>
-    <link rel="icon" href="favicon.ico" type="image/vnd.microsoft.icon" sizes="16x16 32x32 48x48">
-    <link rel="icon" href="favicon.png" type="image/png" sizes="32x32">
-    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/styles.css" rel="stylesheet">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Colin R. Brine | Technical Support Engineer</title>
+<meta name="description" content="Colin R. Brine, Technical Support Engineer. API integrations, SQL troubleshooting, payment hardware, practical development and technical documentation.">
+<link rel="icon" href="favicon.ico" type="image/vnd.microsoft.icon" sizes="16x16 32x32 48x48">
+<link rel="icon" href="favicon.png" type="image/png" sizes="32x32">
+<link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<link href="css/styles.css" rel="stylesheet">
+<link href="css/career.css" rel="stylesheet">
 </head>
-
 <body>
-    <div id="mobile-menu-open" class="shadow-large">
-        <img src="images/ham.png" alt="Down" height="27" width="27"/>
-    </div>
-    <!-- End #mobile-menu-toggle -->
-    <header>
-        <div id="mobile-menu-close">
-            <span>Close</span> <i class="fa fa-times" aria-hidden="true"></i>
-        </div>
-        <ul id="menu" class="shadow">
-            <li>
-                <a href="#about">Summary</a>
-            </li>
-            <li>
-                <a href="#skills">Technical Toolset</a>
-            </li>
-            <li>
-                <a href="#projects">Projects</a>
-            </li>
-            <li>
-                <a href="#experience">Experience</a>
-            </li>
-            <li>
-                <a href="#education">Education & Awards</a>
-            </li>
-            <li>
-                <a href="#contact">Contact</a>
-            </li>
-        </ul>
-    </header>
-    <!-- End header -->
-
-    <div id="lead">
-        <div id="lead-content">
-            <h1>Colin R. Brine</h1>
-            <h2>Technical Support Engineer</h2>
-            <a href="images/Colin_Brine_Resume.pdf" target="_blank" class="btn-rounded-white">Download Resume</a>
-        </div>
-        <!-- End #lead-content -->
-
-        <div id="lead-overlay"></div>
-
-        <div id="lead-down">
-            <span>
-                <img src="images/down.png" alt="Down" height="27" width="27" style="vertical-align:middle;margin:4px 0px"/>
-            </span>
-        </div>
-        <!-- End #lead-down -->
-    </div>
-    <!-- End #lead -->
-
-    <div id="about">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-4">
-                    <h2 class="heading">Summary</h2>
-                </div>
-                <div class="col-md-8">
-                    <p>
-                        I work across e-commerce support, POS and payment hardware, partner integrations, and data analysis. I investigate code issues, contribute fixes, and coordinate payment-provider integrations and token migrations. I develop reusable utilities with AI assistance and help customers and teammates through remote troubleshooting, clear documentation, and training. 
-                    </p>
-                    <br>
-                    <p>
-                        Outside of my professional life I enjoy reading, swimming, hiking, camping, and spending time with my wife and pets.
-                    </p>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- End #about -->
-    <div id="skills">
-        <h2 class="heading">Technical Toolset</h2>
-        <ul>
-            <li>REST APIs</li><li>Postman</li><li>MySQL / SQL</li><li>Data Analysis</li>
-            <li>JavaScript</li><li>Node.js</li><li>VS Code</li><li>macOS Command Line</li>
-            <li>Repository Changes</li><li>AI-Assisted Development and Troubleshooting</li>
-            <li>POS / Payment Hardware</li><li>Printers</li><li>Remote Diagnostics</li>
-            <li>Payment-Provider Coordination</li><li>Technical Documentation</li><li>Peer Training</li>
-        </ul>
-        <p>Additional familiarity: React and Python. Earlier coursework (2020): Express and Django.</p>
-    </div>
-    <!-- End #skills -->
-
-    <div id="projects" class="background-alt">
-        <h2 class="heading">Software Engineering Coursework (2020)</h2>
-        <div class="container">
-            <div class="row">
-
-                <div class="project shadow-large">
-                    <div class="project-image">
-                        <img src="images/charactercreationtool.png" alt="Character Creation Tool Screenshot" height="300" width="300" />
-                    </div>
-                    <!-- End .project-image -->
-                    <div class="project-info">
-                        <h3>Character Creation Tool SPA + API </h3>
-                        <p>
-                            Built a React/JavaScript client and Django/Python API for authenticated character creation, viewing and attribute updates.
-                        </p>
-                        <a href="https://brinecr.github.io/Character-Creation-Tool-Client/#/">View Deployed Client</a>
-                        <br>
-                        <a href="https://github.com/brinecr/Character-Creation-Tool-Client">View Client GitHub Page</a>
-                        <br>
-                        <a href="https://github.com/brinecr/Character-Creation-Tool-API">View API GitHub Page</a>
-                    </div>
-                    <!-- End .project-info -->
-                </div>
-                <!-- End .project -->
-
-                <div class="project shadow-large">
-                    <div class="project-image">
-                        <img src="images/projectstardust.png" alt="Project Stardust Screenshot" height="300" width="300" />
-                    </div>
-                    <!-- End .project-image -->
-                    <div class="project-info">
-                        <h3>Project Stardust Chat SPA + API</h3>
-                        <p>Collaborated on a React and Express chat application with Socket.io, authentication and editable user profiles.</p>
-                        <a href="https://ga-the-empire.github.io/project-stardust-client/#/">View Deployed Client</a>
-                        <br>
-                        <a href="https://github.com/GA-The-Empire/project-stardust-client">View Client GitHub Page</a>
-                        <br>
-                        <a href="https://github.com/GA-The-Empire/project-stardust-api">View API GitHub Page</a>
-                    </div>
-                    <!-- End .project-info -->
-                </div>
-                <!-- End .project -->
-
-                <div class="project shadow-large">
-                    <div class="project-image">
-                        <img src="images/petsharingapplication.png" alt="Pet Sharing Application Screenshot" height="300" width="300" />
-                    </div>
-                    <!-- End .project-image -->
-                    <div class="project-info">
-                        <h3>Pet Sharing SPA +API</h3>
-                        <p>Built a JavaScript/Express pet-sharing application with authentication, shared listings and editing restricted to each owner.</p>
-                        <a href="https://brinecr.github.io/pet-client/">View Deployed Client</a>
-                        <br>
-                        <a href="https://github.com/brinecr/pet-client">View Client GitHub Page</a>
-                        <br>
-                        <a href="https://github.com/brinecr/pet-api">View API GitHub Page</a>
-                    </div>
-                    <!-- End .project-info -->
-                </div>
-                <!-- End .project -->
-
-                <div class="project shadow-large">
-                    <div class="project-image">
-                        <img src="images/tictactoegame.png" alt="Tic Tac Toe Game Screenshot" height="300" width="300"/>
-                    </div>
-                    <!-- End .project-image -->
-                    <div class="project-info">
-                        <h3>Tic-Tac-Toe SPA</h3>
-                        <p>Built a front-end Tic-Tac-Toe application with JavaScript, HTML, jQuery and SASS, integrated with an existing API.</p>
-                        <a href="https://brinecr.github.io/tic-tac-toe-client/">View Deployed Client</a>
-                        <br>
-                        <a href="https://github.com/brinecr/tic-tac-toe-client">View Client GitHub Page</a>
-                        <br>
-                    </div>
-                    <!-- End .project-info -->
-                </div>
-                <!-- End .project -->
-            </div>
-        </div>
-    </div>
-    <!-- End #projects -->
-
-    <div id="experience" class="background-alt">
-        <h2 class="heading">Experience</h2>
-        <div id="experience-timeline">
-          <div data-date="April 2022 - Present">
-              <h3>Technical Support Engineer</h3>
-              <h4>Commerce7</h4>
-              <p>Remote</p>
-              <p>Technical Support Engineer: September 2026 - Present<br>
-                 Infrastructure Support Engineer: August 2023 - September 2026<br>
-                 Technical Support Engineer: April 2022 - August 2023</p>
-              <p>Promoted internally in August 2023. The September 2026 title change followed company-wide career and team title alignment.</p>
-              <p>Current responsibilities and contributions across my Commerce7 roles:</p>
-              <ul>
-                  <li><p>Serve as a primary technical escalation resource for supported POS/payment terminals and printers, troubleshooting device, connectivity and setup issues through remote sessions and video calls.</p></li>
-                  <li><p>Coordinate payment-provider integrations and token migrations between businesses, gateway partners and internal teams; track progress, identify failures and engage technical owners to resolve them.</p></li>
-                  <li><p>Investigate code-level product issues, contribute fixes, and submit repository changes within the team's development workflow.</p></li>
-                  <li><p>Use REST API requests and targeted data queries to investigate complex technical escalations and communicate findings across teams.</p></li>
-                  <li><p>Develop and use reusable MySQL query tools with JavaScript and Node.js using AI assistance; share code with teammates for review ahead of a broader rollout.</p></li>
-                  <li><p>Develop remote collaboration tools and workflows aimed at reducing unnecessary meetings, improving communication, and making problem-solving more efficient and enjoyable.</p></li>
-                  <li><p>Work with documentation and education teams to keep setup and troubleshooting guidance accurate. Automated the collection of system documentation to support existing guides and training.</p></li>
-                  <li><p>Taught teammates technical workflows and troubleshooting approaches, explaining the reasoning behind them; helped record hardware training videos.</p></li>
-              </ul>
-          </div>
-            <div data-date="September 2020 - March 2022">
-              <h3>Technical Customer Support Guru</h3><h4>VineSpring</h4><p>Remote</p>
-              <ul>
-                <li><p>Investigated escalated product and payment issues, coordinating development follow-up through Zendesk and Zenhub.</p></li>
-                <li><p>Worked with MongoDB and AWS-hosted databases; ran AWS Lambda scripts to synchronize data, primarily with Square.</p></li>
-              </ul>
-              <p>Transitioned to Commerce7 following its acquisition of VineSpring.</p>
-          </div>
-          <div data-date="April 2020 - June 2020">
-              <h3>Software Engineering Immersive Fellow</h3><h4>General Assembly</h4><p>Remote</p>
-              <p>Completed 480+ hours of individual and team coursework; certificate issued July 2020. Built four software projects spanning front-end development, REST APIs, authentication and full-stack applications. Selected projects are shown above as 2020 coursework.</p>
-          </div>
-          <div data-date="September 2019 - March 2020">
-              <h3>Desktop Support Specialist</h3><h4>Optos assignment through The Davis Companies</h4><p>Marlborough, MA</p>
-              <ul>
-                <li><p>Led and trained approximately 20 temporary agents supporting a Windows 7 to Windows 10 migration involving roughly 12,000 computers.</p></li>
-                <li><p>Wrote operating procedures and training documentation from engineering guidance; used SQL to verify database backups before device migration.</p></li>
-                <li><p>Coordinated scheduling, telephone support and remote access throughout the migration.</p></li>
-              </ul>
-          </div>
-          <div data-date="2019">
-              <h3>Support Engineer Level 1</h3><h4>Vision Government Solutions</h4><p>Hudson, MA</p>
-              <p>Supported property-appraisal software and Oracle/SQL database environments, including running SQL scripts and remotely troubleshooting customer systems.</p>
-          </div>
-          <div data-date="2017 - 2019">
-              <h3>Business Support Specialist</h3><h4>Comcast Business</h4><p>Hudson, NH</p>
-              <p>Supported small-business internet, phone, video and billing services; handled escalations and documented troubleshooting and service changes.</p>
-          </div>
-          <div data-date="2016 - 2017">
-              <h3>AR Retention Specialist</h3><h4>Tyco SimplexGrinnell</h4><p>Westminster, MA</p>
-              <p>Customer support and accounts-receivable work in a temporary assignment.</p>
-          </div>
-          <div data-date="April 2016 - October 2016">
-              <h3>Customer Service Representative</h3>
-                <h4>Destination Weddings Travel Group</h4>
-                <p>Wayland, MA</p>
-                  <ul>
-                    <li><p>Responded to phone calls for customer service while answering 3+ live chat conversations and answering emails.</p></li>
-                    <li><p>The role was mainly working toward having customers speak with travel agents affiliated with the company.</p></li>
-                    <li><p>Coordinated transfer and limousine arrangements through phone, chat and email.</p></li>
-                    
-                  </ul>
-            </div>
-          <div data-date="October 2012 - March 2016">
-              <h3>Product and Technical Support Specialist I & II</h3>
-                <h4>Bose Corporation</h4>
-                <p>Westborough, MA</p>
-                  <ul>
-                    <li><p>Started as a temp and was hired full time after a year and promoted from specialist I to II.</p></li>
-                    <li><p>Was part of the e-solutions mentorship program.</p></li>
-                    <li><p>Supported all consumer products and wifi devices through phone, chat and email.</p></li>
-                    
-                  </ul>
-            </div>
-            <div data-date="August 2007 - October 2012">
-                <h3>Early Work Experience</h3>
-                  <p><strong>Commissary Representative</strong> - Keefe Commissary Network - Statewide in MA</p>
-                  <p><strong>Armed Service Technician/Driver</strong> - Loomis - Boylston, MA</p>
-                  <p><strong>Overnight Store Clerk</strong> - Archer's Mobil - Littleton and Ayer, MA</p>
-                <ul>
-                  <li><p>Maintains accountability of high value information and product in secure environments.</p></li>
-                  <li><p>Works remotely without direct supervision.</p></li>
-                </ul>
-            </div>
-        </div>
-    </div>
-    <!-- End #experience -->
-
-    <div id="education">
-        <h2 class="heading">Education &amp; Awards</h2>
-        <div class="education-block">
-            <h3>General Assembly</h3>
-            <h4>AI for Workplace Productivity | February 2025</h4>
-            <p>Software Engineering Immersive | April - June 2020. Completed 480+ hours of coursework; certificate issued July 2020.</p>
-        </div>
-        <div class="education-block">
-            <h3>Commonwealth Wine School</h3>
-            <h4>WSET Level 1 Award in Wines</h4>
-            <ul>
-                <li>
-                    Passed WSET Level 1 in Wine Certification on February 23rd, 2023
-                </li>
-            </ul>
-        </div>
-        <div class="education-block">
-            <h3>Middlesex Community College</h3>
-            <h4>Associate in Science in Criminal Justice | 2011 - 2012</h4>
-            <ul>
-                <li>
-                    Finished school part-time while working full-time.
-                </li>
-            </ul>
-        </div>
-        <div class="education-block">
-            <h3>Norwich University</h3>
-            <h4>Took coursework in Computer Security and Information Assurance</h4>
-            <ul>
-                <li>Participated in the Corps of Cadets</li>
-                <li>Finished 2.5 years of coursework</li>
-            </ul>
-        </div>
-        <div class="education-block">
-            <h3>Eagle Scout</h3>
-            <h4>Senior Patrol Leader and Venture Crew Chief</h4>
-        </div>
-        <!-- End .education-block -->
-    </div>
-    <!-- End #education -->
-
-    <div id="contact">
-        <h2>Get in Touch</h2>
-        <div id="contact-form">
-            <form method="POST" action="https://formspree.io/brinec@gmail.com">
-                <input type="hidden" name="_subject" value="Contact request from personal website" />
-                <input type="email" name="_replyto" placeholder="Your email" required>
-                <textarea name="message" placeholder="Your message" required></textarea>
-                <button type="submit">Send</button>
-            </form>
-        </div>
-        <!-- End #contact-form -->
-    </div>
-    <!-- End #contact -->
-
-    <footer>
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-5 copyright">
-                    <p>
-                        Copyright &copy; 2026 COLIN R. BRINE
-                    </p>
-                </div>
-                <div class="col-sm-2 top">
-                    <span id="to-top">
-                        <img src="images/up.png" alt="Up" height="27" width="27"/></img>
-                    </span>
-                </div>
-                <div class="col-sm-5 social">
-                    <ul>
-                        <li>
-                            <a href="https://github.com/brinecr" target="_blank"><img src="images/github.png" alt="GitHub" height="27" width="27"/></img></a>
-                        </li>
-                        <li>
-                            <a href="https://www.linkedin.com/in/brinec/" target="_blank"><img src="images/linkedin.png" alt="LinkedIn" height="25" width="25"/></img></a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </footer>
-    <!-- End footer -->
-
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script src="js/scripts.min.js"></script>
-</body>
-
-</html>
-
+<a class="skip-link" href="#about">Skip to content</a>
+<button id="mobile-menu-open" class="shadow-large" type="button" aria-label="Open navigation"><img src="images/ham.png" alt="" height="27" width="27"></button>
+<header>
+<button id="mobile-menu-close" type="button" aria-label="Close navigation"><span>Close menu</span></button>
+<nav aria-label="Main navigation"><ul id="menu" class="shadow">
+<li><a href="#focus">What I Work On</a></li><li><a href="#experience">Experience</a></li><li><a href="#skills">Toolset</a></li><li><a href="#background">Background</a></li><li><a href="#contact">Contact</a></li>
+</ul></nav>
+</header>
+<div id="lead">
+<div id="lead-content">
+<h1>Colin R. Brine</h1><h2>Technical Support Engineer</h2>
+<p class="lead-specialties">API integrations, SQL troubleshooting and practical AI workflows.</p>
+<div class="lead-actions"><a href="images/Colin_Brine_Resume.pdf" target="_blank" rel="noopener noreferrer" class="btn-rounded-white">Download Resume</a><a href="#contact" class="lead-contact">Get in Touch</a></div>
+</div><div id="lead-overlay"></div>
+</div>
+<main>
+<section id="about" aria-labelledby="about-heading"><div class="container"><div class="row">
+<div class="col-md-4"><h2 class="heading" id="about-heading">About Me</h2></div>
+<div class="col-md-8"><p>I work where customer support, software and payments meet. I investigate technical issues using APIs, data queries and code, coordinate integrations, and help people solve hardware and connectivity problems.</p><p>I also build reusable utilities with AI assistance and turn what I learn into practical documentation and teammate training.</p></div>
+</div></div></section>
+<section id="focus" class="career-section" aria-labelledby="focus-heading"><div class="container">
+<h2 class="heading" id="focus-heading">What I Work On</h2>
+<div class="focus-grid">
+<article class="focus-card"><h3>APIs &amp; Integrations</h3><p>I investigate technical escalations with REST API requests and targeted SQL queries, and coordinate payment provider integrations and token migrations.</p></article>
+<article class="focus-card"><h3>Practical Development</h3><p>I contribute code fixes and build reusable MySQL query utilities with JavaScript, Node.js and AI assistance. I use these utilities personally and share code with teammates for review.</p></article>
+<article class="focus-card"><h3>Troubleshooting &amp; Training</h3><p>I troubleshoot POS terminals, payment hardware and printers remotely, and help turn technical findings into clearer setup guidance, documentation and training.</p></article>
+</div></div></section>
+<section id="experience" class="background-alt" aria-labelledby="experience-heading">
+<h2 class="heading" id="experience-heading">Selected Experience</h2>
+<div id="experience-timeline">
+<div data-date="April 2022 to Present"><h3>Technical Support Engineer</h3><h4>Commerce7 <span class="role-location">Remote</span></h4>
+<ul class="experience-list">
+<li>Serve as a primary technical escalation resource for POS terminals, payment hardware, printers and connectivity issues.</li>
+<li>Coordinate payment provider integrations and token migrations, track failures and engage the technical owners needed to resolve them.</li>
+<li>Investigate product issues through APIs, SQL and code; contribute fixes and repository changes within the development workflow.</li>
+<li>Develop reusable query utilities, automate documentation collection, and teach technical workflows and troubleshooting approaches.</li>
+</ul>
+<details class="role-history"><summary>Role and promotion history</summary><p>Technical Support Engineer: September 2026 to present.<br>Infrastructure Support Engineer: August 2023 to September 2026.<br>Technical Support Engineer: April 2022 to August 2023.</p><p>Promoted internally in August 2023. The September 2026 title change followed companywide career and team title alignment.</p></details>
+</div>
+<div data-date="September 2020 to March 2022"><h3>Technical Customer Support Guru</h3><h4>VineSpring <span class="role-location">Remote</span></h4><p>Investigated escalated product and payment issues, coordinated development followup, and worked with MongoDB, AWS hosted databases and Lambda scripts to synchronize data, primarily with Square.</p><p class="role-note">Transitioned to Commerce7 following its acquisition of VineSpring.</p></div>
+<div data-date="September 2019 to March 2020"><h3>Desktop Support Specialist</h3><h4>Optos <span class="role-location">Assignment through The Davis Companies</span></h4><p>Led and trained approximately 20 temporary agents supporting a Windows 7 to Windows 10 migration involving roughly 12,000 computers. Wrote operating procedures and used SQL to verify database backups before migration.</p></div>
+</div>
+<p class="section-note">My resume includes the full career history, including earlier technical support roles at Vision Government Solutions, Comcast Business and Bose.</p>
+</section>
+<section id="skills" aria-labelledby="skills-heading"><h2 class="heading" id="skills-heading">Technical Toolset</h2>
+<ul><li>REST APIs</li><li>Postman</li><li>MySQL / SQL</li><li>JavaScript</li><li>Node.js</li><li>VS Code</li><li>macOS Command Line</li><li>AI Assisted Development</li><li>Remote Diagnostics</li><li>POS / Payment Hardware</li><li>Technical Documentation</li><li>Peer Training</li></ul>
+<p class="section-note">Additional familiarity: React and Python. Earlier coursework included Express and Django.</p>
+</section>
+<section id="background" class="career-section background-alt" aria-labelledby="background-heading"><div class="narrow-content">
+<h2 class="heading" id="background-heading">Education &amp; Background</h2>
+<div class="background-list">
+<p><strong>General Assembly</strong><br>AI for Workplace Productivity, February 2025.<br>Software Engineering Immersive, April to June 2020. Completed 480+ hours; certificate issued July 2020.</p>
+<p><strong>Middlesex Community College</strong><br>Associate in Science in Criminal Justice, 2011 to 2012.</p>
+<details class="background-details"><summary>Additional education and awards</summary><p><strong>Commonwealth Wine School</strong><br>WSET Level 1 Award in Wines, February 2023.</p><p><strong>Norwich University</strong><br>Completed 2.5 years of coursework in Computer Security and Information Assurance; participated in the Corps of Cadets.</p><p><strong>Eagle Scout</strong><br>Senior Patrol Leader and Venture Crew Chief.</p></details>
+</div>
+<details id="projects" class="background-details coursework"><summary>Earlier software coursework, 2020</summary>
+<p class="coursework-intro">Selected examples from my General Assembly training.</p>
+<article><h3>Character Creation Tool</h3><p>Individual capstone connecting a React client to a Django API, with authentication and character creation and updates.</p><p><a href="https://github.com/brinecr/Character-Creation-Tool-Client">Client source</a> <span aria-hidden="true">&middot;</span> <a href="https://github.com/brinecr/Character-Creation-Tool-API">API source</a></p></article>
+<article><h3>Project Stardust</h3><p>Team coursework building a React and Express chat application with Socket.io, authentication and editable user profiles.</p><p><a href="https://github.com/GA-The-Empire/project-stardust-client">Client source</a> <span aria-hidden="true">&middot;</span> <a href="https://github.com/GA-The-Empire/project-stardust-api">API source</a></p></article>
+</details></div></section>
+<section id="contact" aria-labelledby="contact-heading"><h2 id="contact-heading">Get in Touch</h2>
+<p class="contact-links"><a href="https://www.linkedin.com/in/brinec/">LinkedIn</a> <span aria-hidden="true">&middot;</span> <a href="https://github.com/brinecr">GitHub</a></p>
+<div id="contact-form"><form method="POST" action="https://formspree.io/brinec@gmail.com">
+<input type="hidden" name="_subject" value="Contact request from personal website">
+<label for="reply-email">Your email</label><input id="reply-email" type="email" name="_replyto" autocomplete="email" placeholder="Your email" required>
+<label for="contact-message">Your message</label><textarea id="contact-message" name="message" placeholder="Your message" required></textarea>
+<button type="submit">Send Message</button>
+</form></div></section>
+</main>
+<footer><div class="container"><div class="row">
+<div class="col-sm-5 copyright"><p>Copyright &copy; 2026 Colin R. Brine</p></div>
+<div class="col-sm-2 top"><button id="to-top" type="button" aria-label="Back to top"><img src="images/up.png" alt="" height="27" width="27"></button></div>
+<div class="col-sm-5 social"><ul><li><a href="https://github.com/brinecr"><img src="images/github.png" alt="GitHub" height="27" width="27"></a></li><li><a href="https://www.linkedin.com/in/brinec/"><img src="images/linkedin.png" alt="LinkedIn" height="25" width="25"></a></li></ul></div>
+</div></div></footer>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script><script src="js/scripts.min.js"></script>
+</body></html>

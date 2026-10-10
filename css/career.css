@@ -1,0 +1,89 @@
+/* Maintained career page styles, loaded after the original template. */
+body { color: #374054; line-height: 1.65; }
+button { font-family: inherit; }
+a:focus-visible, button:focus-visible, summary:focus-visible,
+input:focus-visible, textarea:focus-visible { outline: 3px solid #824134; outline-offset: 4px; }
+.skip-link { position: absolute; left: 16px; top: -100px; z-index: 1000; padding: 10px 16px; background: #fff; }
+.skip-link:focus { top: 12px; }
+header a { font-size: 15px; }
+#mobile-menu-open, #mobile-menu-close { border: 0; }
+#mobile-menu-open { min-width: 44px; min-height: 44px; }
+#mobile-menu-close { min-height: 48px; }
+#lead { height: auto; min-height: 0; max-height: none; padding: 155px 24px 105px; }
+#lead-content { position: relative; left: auto; top: auto; transform: none; max-width: 1000px; margin: auto; }
+#lead-content h1 { font-size: 3.6em; line-height: 1.15; letter-spacing: .025em; }
+#lead-content h2 { font-size: 1.8em; margin: 14px 0; }
+.lead-specialties { color: #fff; font-size: 1.1em; font-weight: 300; margin: 0 auto 28px; max-width: 580px; }
+.lead-actions { display: flex; justify-content: center; align-items: center; flex-wrap: wrap; gap: 24px; }
+.lead-contact { color: #fff; padding: 12px 0; text-decoration: underline; text-underline-offset: 5px; }
+.lead-contact:hover, .lead-contact:focus { color: #fff; }
+#lead-content .btn-rounded-white { padding: 11px 23px; font-size: 1em; }
+#about { padding: 58px 24px; }
+#about p { color: #505d68; }
+#about p + p { margin-top: 14px; }
+.career-section { padding: 54px 24px; text-align: center; border-bottom: 1px solid #dcd9d9; }
+.focus-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 24px; }
+.focus-card { text-align: left; padding: 24px; border: 1px solid #dcd9d9; border-radius: 4px; background: #fff; }
+.focus-card h3 { font-size: 1.3em; font-weight: 500; margin: 0 0 14px; }
+.focus-card p { margin: 0; color: #505d68; font-size: .95em; }
+#experience { padding: 54px 24px; }
+.vtimeline-content { padding: 24px; }
+.vtimeline-content h3 { font-weight: 500; font-size: 1.4em; }
+.vtimeline-content h4 { font-weight: 500; margin-top: 7px; color: #505d68; }
+.role-location { display: block; font-size: .78em; margin-top: 5px; font-weight: 400; }
+.vtimeline-content p { color: #505d68; font-size: .95em; }
+.experience-list { padding-left: 20px; margin: 16px 0 0; color: #505d68; font-size: .95em; }
+.experience-list li + li { margin-top: 10px; }
+.role-note { margin-top: 12px !important; }
+.role-history { margin-top: 18px; font-size: .95em; border-top: 1px solid #e6e6e6; padding-top: 14px; }
+summary { cursor: pointer; font-weight: 500; color: #374054; padding: 7px 0; min-height: 44px; }
+summary::after { content: "⌄"; float: right; margin-left: 12px; font-weight: 700; }
+details[open] > summary::after { content: "⌃"; }
+.role-history p { margin-top: 12px; }
+.section-note { color: #505d68; font-size: .9em; max-width: 760px; margin: 30px auto 0; }
+#skills { padding: 54px 24px; }
+#skills h2 { margin-bottom: 28px; }
+#skills li { font-size: 1em; margin: 5px; padding: 7px 12px; }
+.narrow-content { max-width: 760px; margin: auto; }
+.background-list { text-align: left; }
+.background-list > p { margin-bottom: 24px; }
+.background-list strong { font-size: 1.05em; font-weight: 700; }
+.background-details { text-align: left; border-top: 1px solid #dcd9d9; padding: 12px 0; }
+.background-details p { margin: 12px 0; color: #505d68; }
+.coursework { margin-top: 12px; }
+.coursework article { padding: 10px 0 14px; }
+.coursework article + article { border-top: 1px solid #dcd9d9; }
+.coursework h3 { font-size: 1.15em; margin: 10px 0; }
+.coursework-intro { font-size: .9em; }
+.contact-links { margin: 0 0 28px; color: #fff; }
+.contact-links a { color: #fff; text-decoration: underline; text-underline-offset: 4px; padding: 8px; }
+#contact-form { text-align: left; }
+#contact-form label { display: block; color: #fff; font-weight: 400; margin: 12px 0 5px; }
+#contact-form button { min-height: 44px; margin-top: 16px; }
+#contact-form input, #contact-form textarea { font-size: 16px; }
+.top button { display: block; cursor: pointer; width: 44px; height: 44px; margin: 10px auto; padding: 0; border-radius: 50%; border: 2px solid #b9bfc4; background: transparent; }
+footer { padding: 30px 0; }
+@media (max-width: 992px) { .focus-grid { gap: 16px; } .focus-card { padding: 20px; } #about { text-align: left; } }
+@media (max-width: 768px) {
+header nav { height: calc(100% - 48px); }
+#lead { padding: 100px 24px 66px; }
+#lead-content h1 { font-size: 2.45em; }
+#lead-content h2 { font-size: 1.4em; }
+.lead-specialties { font-size: 1em; max-width: 360px; }
+.focus-grid { grid-template-columns: 1fr; }
+#about, .career-section, #skills, #experience { padding: 40px 20px; }
+.heading { font-size: 1.75em; }
+.vtimeline-content { margin-left: 58px; padding: 18px; }
+.vtimeline-date { margin-left: 58px; font-weight: 400; font-size: .9em; }
+.vtimeline-icon { width: 44px; height: 44px; }
+#experience-timeline:before, #experience-timeline:after { left: 20px; }
+.copyright { padding-top: 0; }
+}
+@media (max-width: 400px) {
+#lead-content h1 { font-size: 2em; }
+#lead-content h2 { font-size: 1.2em; }
+.lead-actions { gap: 16px; }
+.vtimeline-content, .vtimeline-date { margin-left: 0; }
+.vtimeline-icon, #experience-timeline:before, #experience-timeline:after { display: none; }
+}
+@media (prefers-reduced-motion: reduce) { header { animation: none; } * { transition: none !important; } }
